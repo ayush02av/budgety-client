@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: Raleway, sans-serif;
+}
+
+* {
+  outline: none;
+
+}
+
+.custom-img {
+  background-image: url('/static/home-bg.jpg');
+}
+
+.custom-button {
+  background-color: #222;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #000;
+    transition: 0.5s;
+  }
+}
